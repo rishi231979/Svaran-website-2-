@@ -1,0 +1,13 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/css/*", "/js/*", "/assets/*", "/robots.txt", "/sitemap.xml"]
+  },
+  "mimeTypes": {
+    ".svg": "image/svg+xml",
+    ".json": "application/json",
+    ".xml": "application/xml",
+    ".txt": "text/plain",
+    ".webmanifest": "application/manifest+json"
+  }
+}
