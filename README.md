@@ -59,7 +59,7 @@ The GitHub Actions workflow for CI/CD is intentionally **not** included yet — 
 These are hardcoded as findable placeholders (each flagged with an HTML comment in `index.html`) and must be replaced with real values before launch:
 
 - [x] **Deel affiliate link** — done. The "Set Up Deel" button now points to the real referral link.
-- [ ] **Formspree form ID** — `index.html`, the contact `<form>` action is `https://formspree.io/f/YOUR_FORM_ID`. Sign up at [formspree.io](https://formspree.io) (free tier works) and swap in your real endpoint.
+- [x] **Formspree form ID** — done. The contact form now submits to the real Formspree endpoint.
 - [ ] **Open Graph image** — `index.html`, `og:image` points to `https://svaran.in/assets/og-image.png`, which doesn't exist yet. Add a real 1200×630 image to `/assets/` before launch so link previews render correctly.
 
 ## Status
