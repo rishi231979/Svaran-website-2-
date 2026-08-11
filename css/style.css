@@ -487,6 +487,43 @@ section {
 }
 
 /* --------------------------------------------------------------------------
+   7c-3. Media
+   -------------------------------------------------------------------------- */
+.media-intro {
+  margin-top: var(--space-1);
+  max-width: 560px;
+  color: var(--color-text);
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.media-card {
+  display: block;
+  color: var(--color-text);
+}
+
+.media-card h3 {
+  color: var(--color-primary);
+}
+
+.media-link {
+  display: inline-block;
+  margin-top: var(--space-2);
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.media-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover, var(--shadow-card));
+}
+
+/* --------------------------------------------------------------------------
    7d. Contact
    -------------------------------------------------------------------------- */
 .contact-intro {
@@ -681,6 +718,10 @@ section {
 
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .media-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
