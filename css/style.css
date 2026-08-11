@@ -431,6 +431,41 @@ section {
 }
 
 /* --------------------------------------------------------------------------
+   7c-2. Legal / Affiliate Terms
+   -------------------------------------------------------------------------- */
+.legal-content {
+  max-width: 720px;
+}
+
+.legal-content h1 {
+  margin-bottom: var(--space-1);
+}
+
+.legal-content h2 {
+  font-size: 1.25rem;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-1);
+}
+
+.legal-content p {
+  margin-top: var(--space-2);
+  color: var(--color-text);
+}
+
+.legal-content h2 + p {
+  margin-top: var(--space-1);
+}
+
+.legal-content a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.legal-back {
+  margin-top: var(--space-6) !important;
+}
+
+/* --------------------------------------------------------------------------
    7d. Contact
    -------------------------------------------------------------------------- */
 .contact-intro {
